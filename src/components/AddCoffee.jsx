@@ -26,7 +26,7 @@ const AddCoffee = () => {
       .then((data) => {
         console.log(data);
         if (data.insertedId) {
-          toast.success("Wow so easy!", {
+          toast.success("Add Successfully", {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
